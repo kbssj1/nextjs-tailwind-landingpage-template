@@ -4,7 +4,7 @@ const CallToAction = () => {
 
   return (
     <div className="flex flex-col items-center bg-slate-50 py-20">
-      <p className="text-2xl text-center">Product Features For Call To Action</p>
+      <p className="text-4xl text-center">Product Features For Call To Action</p>
       <br></br>
       <p className="text-xl text-center">Product Features For Call To Action</p>
       <br></br>
