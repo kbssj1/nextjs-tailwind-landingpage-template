@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NextJs-LandingPage",
-  description: "NextJs-LandingPage",
+  title: "Nextjs-tailwind-landingpage-template",
+  description: "nextjs-tailwind-landingpage-template",
 };
 
 export default function RootLayout({

@@ -2,7 +2,7 @@ const Advantages = () => {
 
   return (
 
-    <div className="py-16">
+    <div className="py-12">
 
     <p className="text-xl text-center py-8">Product Advantage</p>
 
