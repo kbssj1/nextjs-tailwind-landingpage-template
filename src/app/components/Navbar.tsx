@@ -19,10 +19,13 @@ const Navbar = () => {
           <nav>
             <ul className="navbar flex flex-nowrap items-center gap-4 text-xl font-medium text-gray-800">
               <li>
-                <Link href="/"> page1 </Link>
+                <Link href="/page1"> page1 </Link>
               </li>
               <li>
                 <Link href="/page2"> page2 </Link>
+              </li>
+              <li>
+                <Link href="https://github.com/kbssj1/nextjs-tailwind-landingpage-template.git"> GitHub </Link>
               </li>
             </ul>
           </nav>
