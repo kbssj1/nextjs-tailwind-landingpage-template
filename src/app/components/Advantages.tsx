@@ -11,10 +11,10 @@ const Advantages = () => {
       <div className="rounded overflow-hidden shadow-lg basis-1/3 text-center">
         <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">
-          100%
+          Save 80%
         </div>
         <p className="text-gray-700 text-base">
-          Product Advantage
+          Create a game with this template and save your time. This template has a lot. 
         </p>
         </div>
       </div>
@@ -22,10 +22,10 @@ const Advantages = () => {
       <div className="rounded overflow-hidden shadow-lg basis-1/3 text-center">
         <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">
-          100%
+          Save 80%
         </div>
         <p className="text-gray-700 text-base">
-          Product Advantage
+          Create a game with this template and save your time. This template has a lot. 
         </p>
         </div>
       </div>
@@ -33,10 +33,10 @@ const Advantages = () => {
       <div className="rounded overflow-hidden shadow-lg basis-1/3 text-center">
         <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">
-          100%
+          Save 40%
         </div>
         <p className="text-gray-700 text-base">
-          Product Advantage
+          We sell direct to save 40% No Hidden fees
         </p>
         </div>
       </div>

@@ -4,9 +4,9 @@ const Features = () => {
   return (
     <div className="py-10 bg-slate-50">
       <div className="flex flex-col justify-center items-center">
-        <h3 className="text-blue-500 text-center text-6xl">Product Features</h3>
+        <h3 className="text-blue-500 text-center text-6xl">Best Product <br></br> For Your Digital Game</h3>
         <br/>
-        <p className="text-xl text-center py-10">Product Features</p>
+        <p className="text-xl text-center py-10">Get an Awesome Game Template <br></br> For Your Time</p>
         <div className="aspect-video">
           <iframe
             className="w-[600px] h-[300px]"
