@@ -3,17 +3,18 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Button } from './Button';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <div>
-      <div className="hidden sm:block py-8">
-        <div className="flex flex-wrap justify-center">
+      <div className="hidden sm:block py-4">
+        <div className="flex flex-wrap justify-center items-center">
 
-          <div className="basis-1/4 text-xl font-medium text-gray-800">
-            Logo
+          <div className="basis-1/4">
+            <Image src="/lablogo.png" width={50} height={50} alt="logo" /> 
           </div>
 
           <nav>
@@ -54,7 +55,7 @@ const Navbar = () => {
             <nav>
               <ul className="navbar flex flex-nowrap flex-col gap-4 text-xl font-medium text-gray-800">
                 <li>
-                  <Link href="/"> page1 </Link>
+                  <Link href="/page1"> page1 </Link>
                 </li>
                 <li>
                   <Link href="/page2"> page2 </Link>
