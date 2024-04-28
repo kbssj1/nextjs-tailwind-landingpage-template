@@ -2,19 +2,25 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { Button } from './Button';
 import Image from 'next/image';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const router = useRouter();
+
+  const gotoHomePage = () => {
+    router.push('/');
+  }
 
   return (
     <div>
       <div className="hidden sm:block py-4">
         <div className="flex flex-wrap justify-center items-center">
 
-          <div className="basis-1/4">
-            <Image src="/lablogo.png" width={50} height={50} alt="logo" /> 
+          <div className="basis-1/4 ">
+            <Image onClick={gotoHomePage} className="hover:cursor-pointer" src="/lablogo.png" width={50} height={50} alt="logo" /> 
           </div>
 
           <nav>
