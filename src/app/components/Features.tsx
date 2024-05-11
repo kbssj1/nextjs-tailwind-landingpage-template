@@ -33,16 +33,44 @@ const Features2 = () => {
 
   return (
     <div className="py-10 bg-slate-50">
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center gap-10">
         <div className="flex flex-col">
           <h3 className="text-blue-500 text-left text-5xl">Best Product <br></br> For Your Digital Game</h3>
           <br/>
           <p className="text-xl text-left py-10">Get an Awesome Game Template <br></br> For Your Time</p>
         </div>
-        <Image className="hover:cursor-pointer" src="/code.png" width={500} height={500} alt="image" /> 
+        <Image className="hover:cursor-pointer hidden sm:block" src="/code.png" width={500} height={500} alt="image" /> 
       </div>
     </div>
   );
+
 };
 
-export { Features, Features2 };
+const Features3 = () => {
+
+  return (
+    <div className="py-20">
+      <div className="flex items-center justify-center gap-10">
+        <div className="flex flex-col">
+          <h3 className="text-4xl text-center">What is This Assset </h3>
+          <br/>
+          <p className="text-xl py-10 text-center">Get an Awesome Game Template For Your Time <br></br> Create a game with this template and save your time. This template has a lot.</p>
+        </div>
+      </div>
+    </div>
+  );
+
+};
+
+const Features4 = () => {
+
+  return (
+    <div>
+      <Image src="/digital.jpg" width={0} height={0} sizes="100vw" style={{ width: '100%', height: '500px' }} alt="image" />
+      <div className="absolute bottom-10 py-2 inset-x-0 text-white text-xl text-center">Get an Awesome Game Template For Your Time</div>
+    </div>
+  );
+
+};
+
+export { Features, Features2, Features3, Features4 };
