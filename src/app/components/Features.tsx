@@ -39,7 +39,7 @@ const Features2 = () => {
           <br/>
           <p className="text-xl text-left py-10">Get an Awesome Game Template <br></br> For Your Time</p>
         </div>
-        <Image className="hover:cursor-pointer hidden sm:block" src="/code.png" width={500} height={500} alt="image" /> 
+        <Image unoptimized className="hidden sm:block" src="/code.png" width={500} height={500} alt="image" /> 
       </div>
     </div>
   );
@@ -66,7 +66,7 @@ const Features4 = () => {
 
   return (
     <div>
-      <Image src="/digital.jpg" width={0} height={0} sizes="100vw" style={{ width: '100%', height: '500px' }} alt="image" />
+      <Image src="/digital.jpg" unoptimized width={0} height={0} sizes="100vw" style={{ width: '100%', height: '500px' }} alt="image" />
       <div className="absolute bottom-10 py-2 inset-x-0 text-white text-xl text-center">Get an Awesome Game Template For Your Time</div>
     </div>
   );
